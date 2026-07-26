@@ -3,6 +3,7 @@ import numpy as np
 temperatures = np.array([28.5, 33.7, 32.9, 31.6])
 average = np.mean(temperatures)
 print(average)
+#print(np.min(temperatures))
 
 #if you want to check the shape of an array 
 #print(temperatures.shape)
@@ -12,6 +13,12 @@ print(average)
 
 #if you want to check the dimension of an array 
 #print(temperatures.ndim)
+
+#if you want to check the data type of an array 
+#print(temperatures.dtype)
+
+#if you want to change the data type of an array 
+#print(temperatures.astype(int))
 
 '''
 #adv of numpys (numbers in python )
@@ -52,3 +59,18 @@ print(arrr)
 im = np.eye(4)
 print(im)
 
+#math operators 
+print(temperatures + 2)
+print(temperatures * 2)
+print(temperatures ** 2)
+
+
+#aggregation function 
+'''
+np.sum(array) adds all
+np.mean(array) avg 
+np.min(array) minimum element
+np.max(array) maximum element 
+np.std(array) standard deviation 
+np.var(array) variance 
+'''
