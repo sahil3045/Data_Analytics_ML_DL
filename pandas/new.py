@@ -46,5 +46,19 @@ method
 
 '''
 
-#now displaying the info of the dataset t
-print(df.info())
+#now displaying the info of the dataset 
+#print(df.info())
+
+#now displaying the a overall summary of the dataset 
+#print(df.describe())
+
+
+'''
+how big is your dataset 
+name of the columns 
+
+shape and columns 
+'''
+
+print(f'shape: {df.shape}')
+print(f'shape: {df.columns}')
