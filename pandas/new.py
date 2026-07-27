@@ -15,4 +15,36 @@ df = pd.read_csv("leads-100.csv")
 #print(dfxl)
 
 dfj = pd.read_json("config-package.json")
-print(dfj)
+#print(dfj)
+
+
+
+
+#head(), tail()
+#print("displaying top 10 rows ")
+#print(df.head(10)) #if you dont mention 10 then it takes by dafult 5
+
+
+#print("displaying bottom 10 rows ")
+#print(df.tail(10))
+
+
+'''
+now for understanding the data 
+you should know 
+1 - columns, rows
+2 - what type of data is present 
+3 - missing data 
+
+for this we have info()
+method 
+1 - no of rows and columns 
+2 - column names 
+3 - data types presnet 
+4 - non null counts 
+5 - memory usage of the dataframe 
+
+'''
+
+#now displaying the info of the dataset t
+print(df.info())
