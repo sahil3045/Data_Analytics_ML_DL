@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Sahil",
+        "Age": 22,
+        "City": "Mumbai",
+        "Marks": 88
+    },
+    {
+        "Name": "Rahul",
+        "Age": 21,
+        "City": "Pune",
+        "Marks": 75
+    },
+    {
+        "Name": "Priya",
+        "Age": 23,
+        "City": "Delhi",
+        "Marks": 91
+    },
+    {
+        "Name": "Ananya",
+        "Age": 20,
+        "City": "Bangalore",
+        "Marks": 84
+    },
+    {
+        "Name": "Rohan",
+        "Age": 22,
+        "City": "Hyderabad",
+        "Marks": 79
+    }
+]
